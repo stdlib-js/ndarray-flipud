@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,23 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var isndarrayLike = require( '@stdlib/assert-is-ndarray-like' );
-var base = require( '@stdlib/ndarray-base-flipud' );
-var format = require( '@stdlib/error-tools-fmtprodmsg' );
-
-
-// MAIN //
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Returns a read-only view of an input ndarray in which the order of elements along the second-to-last dimension is reversed.
 *
-* @param {ndarray} x - input array
-* @throws {TypeError} first argument must be an ndarray
-* @returns {ndarray} ndarray view
+* @param x - input array
+* @returns output array
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray-ctor' );
@@ -55,14 +49,9 @@ var format = require( '@stdlib/error-tools-fmtprodmsg' );
 * arr = ndarray2array( y );
 * // returns [ [ 5.0, 6.0 ], [ 3.0, 4.0 ], [ 1.0, 2.0 ] ]
 */
-function flipud( x ) {
-	if ( !isndarrayLike( x ) ) {
-		throw new TypeError( format( 'null4f', x ) );
-	}
-	return base( x, false );
-}
+declare function flipud<T extends ndarray = ndarray>( x: T ): T;
 
 
 // EXPORTS //
 
-module.exports = flipud;
+export = flipud;
