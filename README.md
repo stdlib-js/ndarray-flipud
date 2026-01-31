@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flipud from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flipud@deno/mod.js';
+import flipud from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flipud@v0.1.0-deno/mod.js';
 ```
 
 #### flipud( x )
@@ -94,7 +94,7 @@ var y = flipud( x );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import flipud from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flipud@deno/mod.js';
+import flipud from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flipud@v0.1.0-deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
