@@ -180,8 +180,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-flipud.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-flipud
 
-[test-image]: https://github.com/stdlib-js/ndarray-flipud/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/ndarray-flipud/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/ndarray-flipud/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/ndarray-flipud/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-flipud/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-flipud?branch=main
