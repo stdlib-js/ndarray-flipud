@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8590cdf`](https://github.com/stdlib-js/stdlib/commit/8590cdf9c8367c2a310e8c54af00d1473dceafd1) - **test:** use dedicated zero-dimensional tensor constructor in `ndarray/flipud` [(#16747)](https://github.com/stdlib-js/stdlib/pull/16747) _(by Kartik)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Kartik
 -   Philipp Burckhardt
 
 </section>
